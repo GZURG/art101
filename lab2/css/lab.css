@@ -7,3 +7,15 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+
+
+  h1 {
+    color: red;
+    font: size 200%;
+  }
+
+  p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-indent: 30px;
+    margin-left: 15px;
+  }
