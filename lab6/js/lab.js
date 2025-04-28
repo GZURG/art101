@@ -4,15 +4,15 @@
 
 
 // Transport Choices
-myTransport = ["Car", "Bus", "Legs", "Bike", "Scooter"];
+myTransport = ["Car", " Bus", " Legs", " Bike", " Scooter"];
 
 
 // Main Ride Object
 myMainRide = {
-  make: Nissan,
-  model: Frontier,
-  year: 2015,
-  color: black,
+  make: "Nissan",
+  model: "Frontier",
+  year: "2015",
+  color: "black",
   age: function() {
     return 2025 - this.year;
     }
@@ -20,8 +20,8 @@ myMainRide = {
 
 
 // Output
-document.writeln("What I have for transportation: ", + myTransport + "</br>");
-document.writeln("My Main Squeeze: <pre>", 
+document.writeln("What I have for transportation: ", myTransport, "</br>");
+
+document.writeln("My Main Choice: <pre>", 
   JSON.stringify(myMainRide, null, '\t'), "</pre>");
 
-  
