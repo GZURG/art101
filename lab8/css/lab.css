@@ -4,24 +4,22 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #333333;
-    background-color: #DDD8C4;
+    border: solid 3px #333333;
+    background-color: #F2AEBB;
   }
 
   body {
-    background-color: #6b8e31;
+    background-color: #A7AAE1;
   }
-  
 
   h1 {
-    color: #0b6b00;
-    font-family: 'Times New Roman', Times, serif;
+    color: #696FC7;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 300%;
   }
-  
 
   h2 {
-    color: #795200;
+    color: #A091D6;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 200%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
