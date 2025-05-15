@@ -22,12 +22,3 @@ $("#lets-talk").click(function(){
   const newText = generateConversation();
  $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
-
-
-// Recieve new random conversation.
-// const newText = generateConversation();
-
-
-// Appends a new div to our output div.
-// $("#output").append('<div class="text"><p>' + newText + '</p></div>');
-
